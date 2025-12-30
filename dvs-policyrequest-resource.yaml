@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: dvs-policyrequest-db
+  description: Stores Application and Policy
+spec:
+  type: database
+  owner: guests
+  system: policy-request-system
