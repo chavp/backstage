@@ -12,7 +12,9 @@ metadata:
       icon: dashboard
       type: admin-dashboard
 spec:
-  type: api
+  type: service
   lifecycle: production
   owner: guests
   system: policies
+  providesApis:
+    - ta-policy-request
