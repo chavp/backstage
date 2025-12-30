@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ta-policy-request-api
+  name: ta-policy-request-service
   description: Insurance TA Policy
   tags:
     - dotnet-framework-472
