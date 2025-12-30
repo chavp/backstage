@@ -16,3 +16,5 @@ spec:
   type: openapi
   lifecycle: production
   owner: guests
+  definition:
+    $text: ./TA.json
