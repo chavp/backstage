@@ -6,9 +6,8 @@ metadata:
   labels:
     example.com/custom: custom_label_value
   tags:
-    - 'dotnet'
+    - 'dotnet-framework-472'
     - 'c-charp'
-    - 'ASP.NET Framework'
   links:
     - url: https://admin.example-org.com
       title: Admin Dashboard
