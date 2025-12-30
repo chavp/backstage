@@ -16,5 +16,3 @@ spec:
   type: openapi
   lifecycle: production
   owner: guests
-  definition:
-    $link: http://localhost:8888/explore/default/9a4a4c41-2388-4478-a6ad-da2d2f828317
