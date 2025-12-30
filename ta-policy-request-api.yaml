@@ -3,8 +3,6 @@ kind: Component
 metadata:
   name: ta-policy-request-api
   description: Insurance TA Policy
-  labels:
-    example.com/custom: custom_label_value
   tags:
     - dotnet-framework-472
     - c-charp
