@@ -1,40 +1,22 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-lookup
-  description: Artist Lookup
+  name: artist-web
+  description: The place to be, for great artists
+  labels:
+    example.com/custom: custom_label_value
+  annotations:
+    example.com/service-discovery: artistweb
+    circleci.com/project-slug: github/example-org/artist-website
   tags:
     - java
-    - data
   links:
-    - url: https://example.com/user
-      title: Examples Users
-      icon: user
-    - url: https://example.com/group
-      title: Example Group
-      icon: group
-    - url: https://example.com/cloud
-      title: Link with Cloud Icon
-      icon: cloud
-    - url: https://example.com/dashboard
-      title: Dashboard
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
       icon: dashboard
-    - url: https://example.com/help
-      title: Support
-      icon: help
-    - url: https://example.com/web
-      title: Website
-      icon: web
-    - url: https://example.com/alert
-      title: Alerts
-      icon: alert
-  annotations:
-    backstage.io/source-template: template:default/springboot-template
-    backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
+      type: admin-dashboard
 spec:
-  type: service
-  lifecycle: experimental
-  owner: team-a
-  system: artist-engagement-portal
-  dependsOn: ['resource:artists-db']
-  apiConsumedBy: ['component:www-artist']
+  type: website
+  lifecycle: production
+  owner: artist-relations-team
+  system: public-websites
