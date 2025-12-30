@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: ta-policy-request
+  name: ta-policy-request-api
   description: TA API
   tags:
     - rest
