@@ -17,4 +17,4 @@ spec:
   owner: guests
   system: policies
   providesApis:
-    - ta-policy-request
+    - ta-policy-request-api
