@@ -15,6 +15,6 @@ spec:
   type: service
   lifecycle: production
   owner: guests
-  system: policies
+  system: policy-request-system
   providesApis:
     - ta-policy-request-api
