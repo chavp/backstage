@@ -17,4 +17,4 @@ spec:
   lifecycle: production
   owner: guests
   definition:
-    $json: ./TA.json
+    $text: ./TA.json
