@@ -10,8 +10,6 @@ metadata:
     circleci.com/project-slug: github/example-org/artist-website
   tags:
     - .net
-    - C#
-    - ASP.NET
   links:
     - url: https://admin.example-org.com
       title: Admin Dashboard
