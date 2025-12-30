@@ -8,7 +8,7 @@ metadata:
   tags:
     - 'dotnet'
     - 'c-charp'
-    - 'ASP.NET Framework 4.7.2'
+    - 'ASP.NET Framework'
   links:
     - url: https://admin.example-org.com
       title: Admin Dashboard
