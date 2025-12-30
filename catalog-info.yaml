@@ -5,9 +5,6 @@ metadata:
   description: Insurance TA Policy
   labels:
     example.com/custom: custom_label_value
-  annotations:
-    example.com/service-discovery: artistweb
-    circleci.com/project-slug: github/example-org/artist-website
   tags:
     - 'dotnet'
   links:
