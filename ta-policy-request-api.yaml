@@ -15,4 +15,4 @@ spec:
   type: api
   lifecycle: production
   owner: guests
-  system: policy-request
+  system: policies
