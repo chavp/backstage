@@ -9,7 +9,7 @@ metadata:
     example.com/service-discovery: artistweb
     circleci.com/project-slug: github/example-org/artist-website
   tags:
-    - '.net'
+    - ".net"
   links:
     - url: https://admin.example-org.com
       title: Admin Dashboard
