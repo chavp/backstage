@@ -12,4 +12,4 @@ spec:
   relations:
     # ถ้าตามสคีมาตัวมาตรฐาน ไม่มี deployedOn ให้ใช้ dependsOn เพื่อบอกว่าพึ่งพา Resource เหล่านี้
     - type: dependsOn
-      target: resource:default/dev-host
+      target: resource:dev-host
