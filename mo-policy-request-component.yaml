@@ -18,4 +18,4 @@ spec:
   system: policy-request-system
   providesApis:
     - mo-policy-request-api
-  dependsOn: ['resource:dvs-policyrequest-db']
+  dependsOn: ['resource:dvs-policyrequest-db', 'resource:DVS_CONFIRMPOLICYBACKEND-db', 'resource:EWIPOLICY-db', 'resource:PPGDB-db', 'resource:BASEDB-db', 'resource:DevesMaster-db']
