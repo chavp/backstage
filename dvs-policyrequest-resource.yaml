@@ -3,6 +3,16 @@ kind: Resource
 metadata:
   name: dvs-policyrequest-db
   description: Stores Application and Policy
+  annotations:
+    backstage.io/kubernetes-id: payment-api
+    backstage.io/kubernetes-namespace: payment
+    dev/host: dev.payment.example.internal
+    dev/ip: 10.20.30.11
+    staging/host: staging.payment.example.com
+    staging/ip: 10.20.40.21
+    prod/host: payment.example.com
+    prod/ip: 203.0.113.25
+
 spec:
   type: database
   lifecycle: production
