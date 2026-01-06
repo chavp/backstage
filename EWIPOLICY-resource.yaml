@@ -4,8 +4,8 @@ metadata:
   name: EWIPOLICY-db
   description: Stores EWIPOLICY
   annotations:
-    dev/ip: 192.168.3.83
     dev/status: active
+    dev/ip: 192.168.3.83
 spec:
   type: database
   lifecycle: production
