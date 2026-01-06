@@ -8,8 +8,4 @@ spec:
   lifecycle: production
   owner: guests
   system: policy-request-system
-  # ความสัมพันธ์กับโฮสต์/Environment
-  relations:
-    # ถ้าตามสคีมาตัวมาตรฐาน ไม่มี deployedOn ให้ใช้ dependsOn เพื่อบอกว่าพึ่งพา Resource เหล่านี้
-    - type: dependsOn
-      target: resource:default/dev-host
+  dependsOn: ['resource:default/dev-host']
