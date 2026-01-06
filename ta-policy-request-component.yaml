@@ -18,4 +18,4 @@ spec:
   system: policy-request-system
   providesApis:
     - ta-policy-request-api
-   dependsOn: ['resource:dvs-policyrequest-db', 'resource:EWIPOLICY-db']
+  dependsOn: ['resource:dvs-policyrequest-db', 'resource:EWIPOLICY-db']
