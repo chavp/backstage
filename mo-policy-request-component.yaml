@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mo-policy-request-service
+  description: Insurance MO Policy
+  tags:
+    - dotnet-framework-472
+    - c-charp
+  links:
+    - url: http://localhost:8888/explore/default/d4193008-59f1-4546-9e60-22f8bc7603e8
+      title: API Registry
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: service
+  lifecycle: production
+  owner: guests
+  system: policy-request-system
+  providesApis:
+    - mo-policy-request-api
+  dependsOn: ['resource:dvs-policyrequest-db']
