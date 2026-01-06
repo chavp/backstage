@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: mo-policy-request-api
+  description: MO API
+  tags:
+    - rest
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.1/webhook-example.yaml
+      title: API Spec
+      icon: code
+spec:
+  type: openapi
+  lifecycle: production
+  owner: guests
+  definition:
+    $text: http://localhost:8080/apis/registry/v3/groups/default/artifacts/d4193008-59f1-4546-9e60-22f8bc7603e8/versions/branch=latest/content
