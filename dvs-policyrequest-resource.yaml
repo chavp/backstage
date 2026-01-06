@@ -12,7 +12,6 @@ metadata:
     staging/ip: 10.20.40.21
     prod/host: payment.example.com
     prod/ip: 203.0.113.25
-
 spec:
   type: database
   lifecycle: production
