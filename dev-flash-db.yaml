@@ -1,6 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
+  namespace: default
   name: dev-host
   title: Dev Flash Host (Environment)
   description: โฮสต์สำหรับการพัฒนา (DEV)
@@ -10,4 +11,3 @@ metadata:
 spec:
   type: environment
   owner: guests
-  system: deves-system
