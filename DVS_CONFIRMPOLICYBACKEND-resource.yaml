@@ -5,6 +5,7 @@ metadata:
   description: Stores DVS_CONFIRMPOLICYBACKEND
   annotations:
     dev/host: flashdev.deves.co.th
+    dev/status: active
 spec:
   type: database
   lifecycle: production
