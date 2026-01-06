@@ -5,6 +5,7 @@ metadata:
   description: Stores DevesMaster
   annotations:
     dev/host: 192.168.3.83
+    dev/status: active
 spec:
   type: database
   lifecycle: production
