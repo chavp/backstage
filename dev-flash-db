@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: dev-host
+  title: Dev Flash Host (Environment)
+  description: โฮสต์สำหรับการพัฒนา (DEV)
+  annotations:
+    backstage.io/host: flashdev.deves.co.th
+    backstage.io/host-ip: 10.20.30.11
+spec:
+  type: environment
+  owner: group:guest
+  system: deves-system
