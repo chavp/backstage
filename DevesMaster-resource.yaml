@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: DevesMaster-db
+  description: Stores DevesMaster
+  annotations:
+    dev/host: 192.168.3.83
+spec:
+  type: database
+  lifecycle: production
+  owner: guests
+  system: policy-request-system
