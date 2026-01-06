@@ -10,5 +10,5 @@ metadata:
     backstage.io/host-ip: 10.20.30.11
 spec:
   type: environment
-  owner: group:guests
+  owner: guests
   system: deves-system
