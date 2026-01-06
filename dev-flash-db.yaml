@@ -8,6 +8,7 @@ metadata:
   annotations:
     backstage.io/host: flashdev.deves.co.th
     backstage.io/host-ip: 10.20.30.11
+    backstage.io/managed-by-location: url:http://github.com/backstage/backstage/blob/master/catalog-info.yaml
 spec:
   type: environment
   owner: guests
