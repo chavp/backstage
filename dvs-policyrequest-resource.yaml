@@ -10,4 +10,3 @@ spec:
   lifecycle: production
   owner: guests
   system: policy-request-system
-  dependsOn: ['resource:default/dev-host']
